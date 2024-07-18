@@ -33,6 +33,13 @@ public class oAuth2Test {
 		System.out.println(code);
 		System.out.println(code);
 		System.out.println(code);
+		//some changes
+		System.out.println(code);
+		System.out.println(code);
+		System.out.println(code);
+		
+		
+		
 		
 		String accessTokenResponse = given().urlEncodingEnabled(false)
 		.queryParams("code",code)

@@ -17,11 +17,11 @@ public class serializeTest {
 	{
 		AddPlace p = new AddPlace();
 		p.setAccuracy(50);
-		p.setName("Frontline house");
+		p.setName("SideLine house");
 		p.setPhone_number("(+91) 983 893 3937");
 		p.setAddress("29, side layout, cohen 09");
 		p.setWebsite("http://google.com");
-		p.setLanguage("French-IN");
+		p.setLanguage("Japan-IN");
 		
 		List<String> myList = new ArrayList<String>();
 		myList.add("shoe park");
@@ -41,6 +41,12 @@ public class serializeTest {
 	then().assertThat().statusCode(200).extract().response();
 	String responseString = res.asString();
 	System.out.println(responseString);
+	
+	//some changes
+	System.out.println(responseString);
+	System.out.println(responseString);
+	System.out.println(responseString);
+	
 	}
 
 }
