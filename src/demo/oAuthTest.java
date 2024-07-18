@@ -26,6 +26,13 @@ public class oAuthTest {
 		.asString();
 		
 		System.out.println(response);
+		
+		//architect1
+		System.out.println(response);
+		System.out.println(response);
+		System.out.println(response);
+		System.out.println("it just a sample for git branch");
+		
 		JsonPath js = new JsonPath(response);
 		String accessToken = js.getString("access_token");
 		

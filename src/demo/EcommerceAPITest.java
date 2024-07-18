@@ -42,6 +42,11 @@ public class EcommerceAPITest {
 	System.out.println(loginResponse.getUserId());
 	String userId = loginResponse.getUserId();
 	
+	//architect1
+	System.out.println(token);
+	System.out.println(token);
+	System.out.println(token);
+	System.out.println(token);
 	
 	//Add Product
 	
