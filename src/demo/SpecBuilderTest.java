@@ -37,6 +37,12 @@ public class SpecBuilderTest {
 		l.setLat(-38.383494);
 		l.setLng(33.427362);
 		p.setLocation(l);
+		//architect 2
+		p.setLocation(l);
+		p.setLocation(l);
+		p.setLocation(l);
+		p.setLocation(l);
+		System.out.println("check the architect 2 git ");
 		
 		
 	//RestAssured.baseURI = "https://rahulshettyacademy.com";
